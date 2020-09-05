@@ -1,0 +1,7 @@
+type Query {
+  content(key: String): String
+}
+
+type Mutation {
+  saveContent(key: String, value: String): Boolean
+}
